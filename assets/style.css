@@ -32,6 +32,18 @@ main{
     flex: 1 0 auto;
 }
 
+#homenav {
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+align-items: center;
+}
+
+#homenav ul {
+align-content: space-evenly;
+list-style-type: none;
+}
+
 /*Past shows*/
 #saintssinners img {
     width: 100%;
@@ -43,9 +55,13 @@ main{
 
 /* FOOTER */
 
-
-
 /*Social media on home page*/
+#socials {
+    font-size: 200%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1%;
+}
 
 /*Navigation buttons*/
 .nav {
@@ -53,8 +69,8 @@ display: flex;
 justify-content: center;
 }
 
-button .navigation {
-    
+button.navigation {
+    background-color: slategray;
 }
 
 /*Media query: large or landscape phones (576px and up) */
