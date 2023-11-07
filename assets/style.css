@@ -17,6 +17,7 @@ body {
 h2, h3 {
     display: flex;
         justify-content: center;
+        padding: 10px;
 }
 
 /* HEADER */
@@ -42,10 +43,19 @@ main{
 
 /* FOOTER */
 
+
+
 /*Social media on home page*/
 
 /*Navigation buttons*/
+.nav {
+display: flex;
+justify-content: center;
+}
 
+button .navigation {
+    
+}
 
 /*Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
