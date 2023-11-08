@@ -18,6 +18,7 @@ h1, h2 {
     display: flex;
         justify-content: center;
         padding: 10px;
+        text-align:center;
 }
 
 /* HEADER */
@@ -78,10 +79,7 @@ font-size: 150%;
 /*Current shows page*/
 
 #zombie-apocalypse {
-    margin-left: 30%;
-        margin-right: 30%;
-        margin-top: 5%;
-        margin-bottom: 5%;
+        padding: 10px;
         text-align: center;
         font-size: 150%;
 }
@@ -90,6 +88,14 @@ font-size: 150%;
     text-align: center;
     padding: 10px;
 }
+
+#zombie2 {
+    width: 100%;
+    column count: 1;
+}
+
+/*Future shows*/
+
 
 /* FOOTER */
 
