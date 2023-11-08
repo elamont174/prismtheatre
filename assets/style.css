@@ -75,8 +75,21 @@ font-size: 150%;
     margin-top: 30px;
 }
 
+/*Current shows page*/
 
+#zombie-apocalypse {
+    margin-left: 30%;
+        margin-right: 30%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        text-align: center;
+        font-size: 150%;
+}
 
+.zombiepics {
+    text-align: center;
+    padding: 10px;
+}
 
 /* FOOTER */
 
