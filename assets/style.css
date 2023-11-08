@@ -37,11 +37,22 @@ display: flex;
 flex-direction: column;
 flex-wrap: nowrap;
 align-items: center;
+font-size: 150%;
 }
 
-#homenav ul {
-align-content: space-evenly;
-list-style-type: none;
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-options {
+    display: none;
+    position: absolute;
+    overflow: auto;
+}
+
+.dropdown:hover .dropdown-options {
+    display: block;
 }
 
 /*Past shows*/
