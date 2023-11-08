@@ -28,18 +28,18 @@
 
 <h2>Contact us form page</h2>
 
-<header>Technologies used</header>
+<header><h1>Technologies used</h1></header>
 
-<header>Design</header>
+<header><h1>Design</h1></header>
 
 
-<header>Testing</header>
+<header><h1>Testing</h1></header>
 
-<header>Depolyment</header>
+<header><h1>>Depolyment</h1</header>
 
-<header>Future improvements</header>
+<header><h1>Future improvements</h1></header>
 
-<header>Credits</header>
+<header><h1>Credits</h1></header>
 <ul>
 <li><a href="https://www.freecodecamp.org/news/html-drop-down-menu-how-to-add-a-drop-down-list-with-the-select-element/">FreeCodeCamp</a> was used to create the dropdown menu on the home page.</li>
 <li><a href="https://cloudconvert.com/webp-converter">cloudconvert</a> was used to convert images to webp files.</li>

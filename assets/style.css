@@ -32,6 +32,8 @@ main{
     flex: 1 0 auto;
 }
 
+/*Home page*/
+
 #homenav {
 display: flex;
 flex-direction: column;
@@ -55,7 +57,10 @@ font-size: 150%;
     display: block;
 }
 
-/*Past shows*/
+/*About us page*/
+
+
+/*Past shows page*/
 #saintssinners img {
     width: 100%;
     line-height: 0;
