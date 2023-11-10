@@ -2,7 +2,8 @@
 
 <header><h1>Prism Theatre</h1></header>
 <p>The website is for the amateur dramatic company Prism Theatre. It allows people to buy tickets for upcoming performances, learn about the company and their past, present, future shows. It gives the company a central hub where they can provide information, sell tickets and promote their shows.</p>
-<p>The site can be accessed by this <a href="https://elamont174.github.io/prismtheatre/">link</a>.</p>
+<p>The GitHub page can be accessed <a href="https://github.com/elamont174/prismtheatre">here</a></p>
+<p>The deployed link can be accessed <a href="https://elamont174.github.io/prismtheatre/">here</a>.</p>
 
 <header><h1>User Stories</h1></header>
 <ul>
@@ -32,10 +33,21 @@
 
 <header><h1>Design</h1></header>
 
+<h2>Wireframes</h2>
+<ul>
+<li><img src="assets/images/home-page.png"></li>
+<li><img src="assets/images/home-page2.png"></li>
+<li><img src="assets/images/about-us-page.png"></li>
+<li><img src="assets/images/past-shows-page.png"></li>
+<li><img src="assets/images/current-show-page.png"></li>
+<li><img src="assets/images/future-show-page.png"></li>
+<li><img src="assets/images/contact-us-page.png"></li>
+</ul>
 
 <header><h1>Testing</h1></header>
 
-<header><h1>>Depolyment</h1</header>
+<header><h1>Deployment</h1></header>
+The link can be found here: <a href="https://elamont174.github.io/prismtheatre/">https://elamont174.github.io/prismtheatre/</a>
 
 <header><h1>Future improvements</h1></header>
 
@@ -44,8 +56,9 @@
 <li><a href="https://www.freecodecamp.org/news/html-drop-down-menu-how-to-add-a-drop-down-list-with-the-select-element/">FreeCodeCamp</a> was used to create the dropdown menu on the home page.</li>
 <li><a href="https://cloudconvert.com/webp-converter">cloudconvert</a> was used to convert images to webp files.</li>
 <li><a href="https://fontawesome.com/">Font Awesome</a> was used for the social media symbols on the home page.</li>
+<li><a href="https://balsamiq.com/">Balsamiq</a> was used to create wireframes</li>
 <li>Andy Chick took all of the photos in the past shows gallery and the current show page - they are used with his permission.</li>
 <li>Kim-louise Sparks created the posters on the current shows and future shows pages - they are used with her permission.</li>
 </ul>
 
-<header>Acknowledgements</header>
+<header><h1>Acknowledgements</h1></header>
