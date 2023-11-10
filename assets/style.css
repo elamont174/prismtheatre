@@ -21,11 +21,16 @@ h1, h2 {
         text-align:center;
 }
 
+button .navigation {
+    background-color: darkslategrey;
+}
+
 /* HEADER */
 
 header {
 display: flex;
 justify-content: center;
+max-width: 100vw;
 }
 
 /* MAIN */
@@ -62,17 +67,17 @@ font-size: 150%;
 /*About us page*/
 #about-us-content {
     text-align: center;
-    font-size: 150%;
     position: absolute;
-    left: 40%;
-    right: 40%;
-    top: 40%;
     background-color: rgba(10, 12, 16, 0.7);
+    top: 40%;
+    left: 10%;
+    right: 10%;
+    font-size: 130%;
 }
 
 #hero {
     height: 1500px;
-    width: 100%;
+    width: 100vw;
     background: url("../assets/images/concertgroup.jpg") no-repeat center center/cover;
     position: relative;
    
@@ -155,6 +160,9 @@ button.navigation {
         flex-direction: column;
         width: 100%;
     }
+
+        
+        }
 
 
 }
