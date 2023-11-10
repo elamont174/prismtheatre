@@ -33,11 +33,7 @@ main{
     flex: 1 0 auto;
 }
 
-/* About us hero*/
-#hero {
-    height: 1500px;
-    width: 100%;
-    background: url("../assets/images/concertgroup.jpg") no-repeat center center/cover;
+
 }
 
 /*Home page*/
@@ -67,10 +63,21 @@ font-size: 150%;
 
 /*About us page*/
 #about-us-content {
-    margin-left: 5%;
-    margin-right: 5%;
     text-align: center;
     font-size: 150%;
+    position: absolute;
+    left: 40%;
+    right: 40%;
+    top: 40%;
+    background-color: rgba(10, 12, 16, 0.7);
+}
+
+#hero {
+    height: 1500px;
+    width: 100%;
+    background: url("../assets/images/concertgroup.jpg") no-repeat center center/cover;
+    position: relative;
+   
 }
 
 /*Past shows page*/
@@ -98,7 +105,7 @@ font-size: 150%;
 
 #zombie2 {
     width: 100%;
-    column count: 1;
+    column-count: 1;
 }
 
 /*Future shows*/
