@@ -34,8 +34,6 @@ main{
 }
 
 
-}
-
 /*Home page*/
 
 #homenav {
@@ -109,7 +107,13 @@ font-size: 150%;
 }
 
 /*Future shows*/
+#tos {
+    text-align: center;
+}
 
+#tosposter{
+    max-width: 100vw;
+}
 
 /* FOOTER */
 
@@ -144,4 +148,13 @@ button.navigation {
         column-count: 3;
         column-gap: 0;
     }
+
+    /*home page responsiveness*/
+    #ticketlink, #aboutuslink, #showlink, #contactuslink {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+
 }
