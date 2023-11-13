@@ -25,6 +25,7 @@ h1, h2 {
         justify-content: center;
         padding: 10px;
         text-align:center;
+        font-family: 'Oswald', sans-serif;
 }
 
 button .navigation {
@@ -53,6 +54,7 @@ flex-direction: column;
 flex-wrap: nowrap;
 align-items: center;
 font-size: 150%;
+font-family: 'Oswald', sans-serif;
 }
 
 .dropdown {
@@ -79,6 +81,7 @@ font-size: 150%;
     left: 10%;
     right: 10%;
     font-size: 130%;
+    font-family: 'Oswald', sans-serif;
 }
 
 #hero {
@@ -105,6 +108,7 @@ font-size: 150%;
         padding: 10px;
         text-align: center;
         font-size: 150%;
+        font-family: 'Oswald', sans-serif;
 }
 
 .zombiepics {
@@ -143,7 +147,11 @@ justify-content: center;
 }
 
 button.navigation {
-    background-color: slategray;
+    background-color: #242326;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    margin: 10px;
+    font-weight: 300;
 }
 
 /*Media query: large or landscape phones (576px and up) */
