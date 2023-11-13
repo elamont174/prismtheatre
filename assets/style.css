@@ -54,7 +54,6 @@ flex-direction: column;
 flex-wrap: nowrap;
 align-items: center;
 font-size: 150%;
-font-family: 'Oswald', sans-serif;
 }
 
 .dropdown {
@@ -108,17 +107,25 @@ font-family: 'Oswald', sans-serif;
         padding: 10px;
         text-align: center;
         font-size: 150%;
-        font-family: 'Oswald', sans-serif;
 }
 
 .zombiepics {
     text-align: center;
     padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #zombie2 {
     width: 100%;
     column-count: 1;
+}
+
+#zombietickets {
+    font-size: 130%;
+    background-color: antiquewhite;
+    color: red;
+    font-family: 'Creepster', sans-serif;
 }
 
 /*Future shows*/
@@ -152,6 +159,7 @@ button.navigation {
     font-family: 'Oswald', sans-serif;
     margin: 10px;
     font-weight: 300;
+    font-size: 120%;
 }
 
 /*Media query: large or landscape phones (576px and up) */
@@ -173,7 +181,8 @@ button.navigation {
         column-gap: 0;
     }
 
-        #about-us-content {
+        #about-us-content,
+        #zombie-apocalypse {
             left: 20%;
             right: 20%;
             font-size: 140%;
@@ -186,9 +195,10 @@ button.navigation {
         width: 100%;
     }
 
-         #about-us-content {
+         #about-us-content, #zombie-apocalypse {
              left: 30%;
              right: 30%;
              font-size: 150%;
         }
 
+    }
