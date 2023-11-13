@@ -37,16 +37,18 @@ button .navigation {
 
 /* MAIN */
 
+header {
+display: flex;
+justify-content: center;
+max-width: 100vw;
+
+}
+
 main{
     flex: 1 0 auto;
 }
 
-#prismlogo {
-display: flex;
-justify-content: center;
-width: 30%;
-max-width: 100vw;
-}
+
 
 
 /*Home page*/
@@ -125,7 +127,7 @@ font-size: 150%;
 }
 
 #zombietickets {
-    font-size: 130%;
+    font-size: 200%;
     background-color: antiquewhite;
     color: red;
     font-family: 'Creepster', sans-serif;
