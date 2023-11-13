@@ -2,9 +2,7 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-background-color: black;
-color: white;
-font-family: 'Oswald', sans-serif;
+
 }
 
 /* General styles*/
@@ -12,6 +10,14 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: black;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+    color: white;
 }
 
 h1, h2 {
@@ -76,9 +82,9 @@ font-size: 150%;
 }
 
 #hero {
-    height: 1500px;
+    height: 1200px;
     width: 100vw;
-    background: url("../assets/images/concertgroup.jpg") no-repeat center center/cover;
+    background: url("../assets/images/concertgroup.png") no-repeat center center/cover;
     position: relative;
    
 }
@@ -145,6 +151,11 @@ button.navigation {
     #saintssinners {
         column-count:2;
     }
+    
+    #about-us-content { 
+        left: 15%;
+         right: 15%;
+    }
 }
 
 /*Media query: tablets (768px and up) */
@@ -154,6 +165,12 @@ button.navigation {
         column-gap: 0;
     }
 
+        #about-us-content {
+            left: 20%;
+            right: 20%;
+            font-size: 140%;
+        }
+
     /*home page responsiveness*/
     #ticketlink, #aboutuslink, #showlink, #contactuslink {
         display: flex;
@@ -161,8 +178,9 @@ button.navigation {
         width: 100%;
     }
 
-        
+         #about-us-content {
+             left: 30%;
+             right: 30%;
+             font-size: 150%;
         }
 
-
-}
