@@ -27,13 +27,21 @@
     <!--Header-->
     <header><img src="assets/images/prism-square.png" alt="Prism Theatre logo"></header>
     <!--Main content-->
-    <main><h3>Contact us</h3></main>
-    <form action="https://formdump.codeinstitute.net" method="POST" target="_blank">
-    <label for="name">Your name<input type="text" name="name" required><br>
-    <label for="emailaddress">Your email<input type="email"  name="emailaddress" required><br>
-    <label for="query">Your query<input type="text" name="query" required><br>
-    <button type="submit">Submit</button> 
-    </form>
+    <main><h1>Contact us</h1></main>
+    <section id="contactus"><form action="https://formdump.codeinstitute.net" method="POST" target="_blank" id="">
+    <label for="name" class="contactlabel">Your name</label>
+    <input type="text" name="name" class="contactbox" required>
+    <br>
+    <label for="emailaddress" class="contactlabel">Your email</label>
+    <input type="email"  name="emailaddress" class="contactbox" required>
+    <br>
+    <label for="query" class="contactlabel">Your query</label>
+    <textarea rows="10" columns="100" type="text" name="query" class="contactbox" id="contactbox-query" required></textarea>
+    <br>
+    <button type="submit" id="contactbox-submit">Submit</button> 
+        </form>
+    </section>
+
     <!--Footer-->
     <footer class="nav">
     <button type="button" class="navigation"><a href="future-shows.html">Previous</a></button>
