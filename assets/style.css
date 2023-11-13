@@ -53,12 +53,53 @@ main{
 
 /*Home page*/
 
+nav {
+    width: 100%;
+    padding-top: 100px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 150%;
+    align-content: center;
+}
+
+nav .image {
+    margin: 0 auto;
+}
+
+nav .image img {
+    object-fit: cover;
+    width: 100%;
+}
+
+nav .nav-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+nav .image-row {
+    order: -1;
+}
+
+nav .link-row {
+    height: 135px;
+    margin-bottom: 65px;
+}
+
 #homenav {
 display: flex;
 flex-direction: column;
 flex-wrap: nowrap;
 align-items: center;
-font-size: 150%;
+font-size: 120%;
 }
 
 .dropdown {
@@ -68,8 +109,9 @@ font-size: 150%;
 
 .dropdown-options {
     display: none;
-    position: absolute;
+    position: relative;
     overflow: auto;
+    font-size: 100%;
 }
 
 .dropdown:hover .dropdown-options {
@@ -223,11 +265,8 @@ button.navigation {
             font-size: 140%;
         }
 
-    /*home page responsiveness*/
-    #ticketlink, #aboutuslink, #showlink, #contactuslink {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
+    /*about us responsiveness*/
+  
     }
 
          #about-us-content, #zombie-apocalypse {
@@ -235,5 +274,20 @@ button.navigation {
              right: 30%;
              font-size: 150%;
         }
+
+          /*Home page responsiveness*/
+                 nav .nav-row {
+        
+                     flex-direction: row;
+                 }
+        
+                 nav .image-row {
+                     order: 0;
+                 }
+        
+                 nav .link-row {
+                     height: auto;
+                     margin-bottom: auto;
+                 }
 
     }
