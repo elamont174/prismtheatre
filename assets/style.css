@@ -1,7 +1,7 @@
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
 }
 
@@ -20,12 +20,13 @@ a {
     color: white;
 }
 
-h1, h2 {
+h1,
+h2 {
     display: flex;
-        justify-content: center;
-        padding: 10px;
-        text-align:center;
-        font-family: 'Oswald', sans-serif;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
 }
 
 button .navigation {
@@ -38,13 +39,13 @@ button .navigation {
 /* MAIN */
 
 header {
-display: flex;
-justify-content: center;
-max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    max-width: 100vw;
 
 }
 
-main{
+main {
     flex: 1 0 auto;
 }
 
@@ -80,7 +81,7 @@ nav .image img {
 
 nav .nav-row {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     flex-direction: column;
 }
@@ -95,11 +96,11 @@ nav .link-row {
 }
 
 #homenav {
-display: flex;
-flex-direction: column;
-flex-wrap: nowrap;
-align-items: center;
-font-size: 120%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-size: 120%;
 }
 
 .dropdown {
@@ -134,7 +135,7 @@ font-size: 120%;
     width: 100vw;
     background: url("../assets/images/concertgroup.png") no-repeat center center/cover;
     position: relative;
-   
+
 }
 
 /*Past shows page*/
@@ -150,9 +151,9 @@ font-size: 120%;
 /*Current shows page*/
 
 #zombie-apocalypse {
-        padding: 10px;
-        text-align: center;
-        font-size: 150%;
+    padding: 10px;
+    text-align: center;
+    font-size: 150%;
 }
 
 .zombiepics {
@@ -179,7 +180,7 @@ font-size: 120%;
     text-align: center;
 }
 
-#tosposter{
+#tosposter {
     max-width: 100vw;
 }
 
@@ -206,11 +207,11 @@ label.contactlabel {
 
 button#contactbox-submit {
     background-color: #444247;
-        color: white;
-        font-family: 'Oswald', sans-serif;
-        margin: 10px;
-        font-weight: 300;
-        font-size: 120%;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    margin: 10px;
+    font-weight: 300;
+    font-size: 120%;
 }
 
 /* FOOTER */
@@ -225,8 +226,8 @@ button#contactbox-submit {
 
 /*Navigation buttons*/
 .nav {
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 button.navigation {
@@ -241,12 +242,12 @@ button.navigation {
 /*Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     #saintssinners {
-        column-count:2;
+        column-count: 2;
     }
-    
-    #about-us-content { 
+
+    #about-us-content {
         left: 15%;
-         right: 15%;
+        right: 15%;
     }
 }
 
@@ -257,40 +258,39 @@ button.navigation {
         column-gap: 0;
     }
 
-        #about-us-content,
-        #zombie-apocalypse {
-            left: 20%;
-            right: 20%;
-            font-size: 140%;
-        }
-
-    /*about us responsiveness*/
-  
+    #about-us-content,
+    #zombie-apocalypse {
+        left: 20%;
+        right: 20%;
+        font-size: 140%;
     }
 
-         #about-us-content, #zombie-apocalypse {
-             left: 30%;
-             right: 30%;
-             font-size: 150%;
-        }
+    /*about us responsiveness*/
+
+}
+
+#about-us-content,
+#zombie-apocalypse {
+    left: 30%;
+    right: 30%;
+    font-size: 150%;
+}
 
 
 
-          /*Home page responsiveness*/
- 
-        
-            nav .nav-row {
-        
-                     flex-direction: row;
-                 }
-        
-                 nav .image-row {
-                     order: 0;
-                 }
-        
-                 nav .link-row {
-                     height: auto;
-                     margin-bottom: auto;
-                 }
+/*Home page responsiveness*/
 
-    
+
+nav .nav-row {
+
+    flex-direction: row;
+}
+
+nav .image-row {
+    order: 0;
+}
+
+nav .link-row {
+    height: auto;
+    margin-bottom: auto;
+}

@@ -6,7 +6,6 @@ The GitHub page can be accessed [here](https://github.com/elamont174/prismtheatr
 The deployed link can be accessed [here](https://elamont174.github.io/prismtheatre/)
 
 # User Stories
-
 - As a theatre goer, I want to buy tickets quickly and easily.
 - As a theatre goer, I want to know that the company is legit, has experience and that I won't be wasting my money.
 - As a theatre goer, I am curious about the company and what other shows they have performed in the past
@@ -33,8 +32,11 @@ The deployed link can be accessed [here](https://elamont174.github.io/prismtheat
 
 # Design
 
-## Wireframes
+- The design was entirely focused around the Prism Theatre logo and principles:
+<img src="assets/images/prism-logo.png">
 
+
+## Wireframes
 - <img src="assets/images/home-page.png">
 - <img src="assets/images/home-page2.png">
 - <img src="assets/images/about-us-page.png">
@@ -46,10 +48,16 @@ The deployed link can be accessed [here](https://elamont174.github.io/prismtheat
 
 # Testing
 
+## Bugs
+
 # Deployment
-The link can be found [here](https://elamont174.github.io/prismtheatre/">https://elamont174.github.io/prismtheatre/)
+The site was deployed to GitHub. The link can be found [here](https://elamont174.github.io/prismtheatre/)
+
 
 # Future improvements
+- The website has been made with the intention of being cloned for use by Prism Theatre. 
+- The contact form would be made fully functional so that the user's query would be directed to Prism Theatre's email address.
+- As more shows are performed, the 'past/present/future' show pages would need to be updated appropriately. Moving forward, each show will have it's own page created for it so that it can easily be link ed from place to place, depending on what time frame is appropriate. The site would need to be maintained to allow this. The structure of the 'past shows' gallery would be altered tobe a central hub where these pages would link from. 
 
 # Credits
 
