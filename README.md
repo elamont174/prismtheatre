@@ -6,6 +6,7 @@ The GitHub page can be accessed [here](https://github.com/elamont174/prismtheatr
 The deployed link can be accessed [here](https://elamont174.github.io/prismtheatre/).
 
 # User Stories
+The target audience for the website will be people, most likely adults, who wish to attend the theatre in the Nottingham area of England. The most likely user will be considering buying tickets for a show or wishing to become involved in local amateur dramatics in the area. User stories are therefore likely to include:
 - As a theatre goer, I want to buy tickets quickly and easily.
 - As a theatre goer, I want to know that the company is legit, has experience and that I won't be wasting my money.
 - As a theatre goer, I am curious about the company and what other shows they have performed in the past
@@ -47,6 +48,7 @@ The current show page contains:
 - a link to the ticket page for users to buy tickets.
 - an image of the cast in costume for the show.
 - quick navigation buttons at the button of the page and a navigation area at the top left of the page.
+- <img src="assets/images/snap5.PNG">
 
 ## Future shows page
 The future shows page contains:
@@ -92,6 +94,8 @@ The only outlier to this was for the "How to Survive a Zombie Apocalypse" ticket
 # Testing
 
 ## Bugs
+1. On the homepage, used flexbox to group the 'shows' and 'contact us' links together and then move them to underneath the logo when on larger screens. Since 'Shows' has a drop-down, this meant that the 'Contact us' box would move when the dropdown was open. I have set the flexbox to 'center' which meant that when the dropbox was open, 'contact us' was moving to the new center. I fixed this by changing the flexbox to 'flex-start' instead. 
+2. When I created the navigation tabs on the individual pages, the dropdown was causing the content of the entire page to move down. I corrected this by setting the positioning of the page to absolute and the dropdown to relative so that the dropdown was then positioned over the page and not causing the page to move down. 
 
 # Deployment
 The site was deployed to GitHub. The link can be found [here](https://elamont174.github.io/prismtheatre/)
@@ -114,5 +118,5 @@ The site was deployed to GitHub. The link can be found [here](https://elamont174
 
 # Acknowledgements
 - My mentor Aleksei Konovalov was a great source of support and helped me work out how to make the home page responsive in the manner I wanted.
-- My husband Malcolm Lamont gave me a layman's viewpoint and made sure all the buttons worked.
+- My husband Malcolm Lamont gave me a layman's viewpoint and kept me sane throughout.
 - The team at Prism Theatre, especially Kim-louise Sparks, Victoria Bryan and Matt McAuley, let me take our vision and bring it to life - and also gave me permission to use the company name/photos/plans for my project! 
