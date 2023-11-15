@@ -92,6 +92,10 @@ The only outlier to this was for the "How to Survive a Zombie Apocalypse" ticket
 
 
 # Testing
+- I tested that the website works on Chrome and Microsoft Edge.
+- I used devtools to check the responsiveness; I also checked this on the deployed site with my personal desktop computer and mobile phone.
+  
+  
 
 ## Bugs
 1. On the homepage, used flexbox to group the 'shows' and 'contact us' links together and then move them to underneath the logo when on larger screens. Since 'Shows' has a drop-down, this meant that the 'Contact us' box would move when the dropdown was open. I have set the flexbox to 'center' which meant that when the dropbox was open, 'contact us' was moving to the new center. I fixed this by changing the flexbox to 'flex-start' instead. 
