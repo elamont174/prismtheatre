@@ -18,8 +18,10 @@ The deployed link can be accessed [here](https://elamont174.github.io/prismtheat
 
 ## Home Page 
 - The home page has the company logo at the heart. The home page design is responsive: on mobile, the different pages are listed underneath in a column, whereas for larger screens the pages are linked around the edges.
+- <img src="assets/images/homesnap1.png">
 - The company social media pages are linked in the footer of the homepage - these can be accessed by clicking the Facebook and Instagram logos, which open as new tabs. 
 - If you hover over the 'Shows' link, you can choose between past, present or future show pages. 
+- <img src="assets/images/homesnap2.png">
 
 ## About us page
 The About Us page contains:
@@ -33,6 +35,8 @@ The hero image is a background image which doesn't move but of which more will b
 ## Past shows gallery
 The past shows page contains:
 - a photo gallery of a past concert the group has performed.
+- quick navigation buttons at the button of the page and a navigation area at the top left of the page.
+- <img src="assets/images/snap3.PNG">
 
 The gallery is responsive so that on mobile, there is one column of photos; on larger/landscape mobiles there are two columns of photos; on tablets/desktops there are three columns of photos. It it presented in a masonic layout to provide visual interest to the user. All photos have alt text so that, if an image link breaks or someone is using a screen reader, there is alternative text to read if necessary. 
 
@@ -57,6 +61,7 @@ The future shows page contains:
   - An email input where the user's email is required.
   - A text-area input where the user can put their query as a required option.
   - The submit button which currently pushed the query to the Code Institute's form-dump page and shows the user what data was sent. 
+- <img src="assets/images/snap4.png">
 
 # Technologies used
 [HTML](https://codeinstitute.net/blog/what-is-html-and-why-should-i-learn-it/) 
