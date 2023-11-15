@@ -151,6 +151,7 @@ nav .link-row {
     background-color: rgba(10, 12, 16, 0.7);
     left: 10%;
     right: 10%;
+    top: 30%;
     font-size: 130%;
     font-family: 'Oswald', sans-serif;
 }
@@ -290,7 +291,7 @@ button.navigation {
     #zombie-apocalypse {
         left: 30%;
         right: 30%;
-        top: 10%;
+        top: 30%;
         font-size: 150%;
 }
 
