@@ -100,6 +100,7 @@ The only outlier to this was for the "How to Survive a Zombie Apocalypse" ticket
 ## Bugs
 1. On the homepage, used flexbox to group the 'shows' and 'contact us' links together and then move them to underneath the logo when on larger screens. Since 'Shows' has a drop-down, this meant that the 'Contact us' box would move when the dropdown was open. I have set the flexbox to 'center' which meant that when the dropbox was open, 'contact us' was moving to the new center. I fixed this by changing the flexbox to 'flex-start' instead. 
 2. When I created the navigation tabs on the individual pages, the dropdown was causing the content of the entire page to move down. I corrected this by setting the positioning of the page to absolute and the dropdown to relative so that the dropdown was then positioned over the page and not causing the page to move down. 
+3. I initially nested anchor tags inside of buttons as I didn't realise that HTML wouldn't allow this. I fixed this by changing all buttons into forms and with a 'get' method. 
 
 # Deployment
 The site was deployed to GitHub. The link can be found [here](https://elamont174.github.io/prismtheatre/)
