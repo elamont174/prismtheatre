@@ -17,7 +17,9 @@ The deployed link can be accessed [here](https://elamont174.github.io/prismtheat
 # Features
 
 ## Home Page 
-
+- The home page has the company logo at the heart. The home page design is responsive: on mobile, the different pages are listed underneath in a column, whereas for larger screens the pages are linked around the edges.
+- The company social media pages are linked in the footer of the homepage - these can be accessed by clicking the Facebook and Instagram logos, which open as new tabs. 
+- If you hover over the 'Shows' link, you can choose between past, present or future show pages. 
 
 ## About us page
 The About Us page contains:
@@ -25,7 +27,7 @@ The About Us page contains:
 - the company manifesto.
 - quick navigation buttons at the button of the page and a navigation area at the top left of the page.
 
-The hero image is a background image which doesn't move but of which more will be displayed depending on which size of screen is used. The text is across the hero image and is responsive to screen size also.
+The hero image is a background image which doesn't move but of which more will be displayed depending on which size of screen is used. The text is across the hero image and is responsive to screen size.
 
 
 ## Past shows gallery

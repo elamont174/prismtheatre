@@ -285,42 +285,6 @@ button.navigation {
     }
 
     
-
-    /*Home page responsiveness*/
-       /* nav .image {
-            margin: 0 auto;
-        }
-    
-        nav image img {
-            object-fit: cover;
-            width: 100%;
-        }
-    
-        nav .nav-row {
-            display: flex;
-            align-items: flex-start;
-            align-content: left;
-            flex-direction: column;
-            margin-top: 50px;
-
-        }
-    
-        nav .image-row {
-            order: -1;
-        }
-    
-        nav .link-row {
-            height: 235px;
-            margin-bottom: 90px;
-
-            #homenav {
-                    display: flex;
-                    flex-direction: column;
-                    flex-wrap: nowrap;
-                    font-size: 200%;*/
-
-
-    
 /*about us responsiveness*/
 
     #about-us-content,
