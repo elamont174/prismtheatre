@@ -18,17 +18,50 @@ The deployed link can be accessed [here](https://elamont174.github.io/prismtheat
 
 ## Home Page 
 
+
 ## About us page
+The About Us page contains:
+- a hero image of the company at a past concert.
+- the company manifesto.
+- quick navigation buttons at the button of the page and a navigation area at the top left of the page.
+
+The hero image is a background image which doesn't move but of which more will be displayed depending on which size of screen is used. The text is across the hero image and is responsive to screen size also.
+
 
 ## Past shows gallery
+The past shows page contains:
+- a photo gallery of a past concert the group has performed.
+
+The gallery is responsive so that on mobile, there is one column of photos; on larger/landscape mobiles there are two columns of photos; on tablets/desktops there are three columns of photos. It it presented in a masonic layout to provide visual interest to the user. All photos have alt text so that, if an image link breaks or someone is using a screen reader, there is alternative text to read if necessary. 
 
 ## Current show page
+The current show page contains:
+- an image of the poster the group are currently rehearsing.
+- information about the show.
+- a link to the ticket page for users to buy tickets.
+- an image of the cast in costume for the show.
+- quick navigation buttons at the button of the page and a navigation area at the top left of the page.
 
 ## Future shows page
+The future shows page contains:
+- an image of a poster for the show which the group will be performing in the future.
+- a link to the ticket page (accessed by clicking on the image of the poster).
+- quick navigation buttons at the button of the page and a navigation area at the top left of the page.
 
 ## Contact us form page
+  A form was created using the form function. 
+  This included:
+  - A text input where the user's name is required.
+  - An email input where the user's email is required.
+  - A text-area input where the user can put their query as a required option.
+  - The submit button which currently pushed the query to the Code Institute's form-dump page and shows the user what data was sent. 
 
 # Technologies used
+[HTML](https://codeinstitute.net/blog/what-is-html-and-why-should-i-learn-it/) 
+[CSS](https://codeinstitute.net/blog/what-is-css-and-why-should-i-learn-it/)
+[Balsamiq](https://balsamiq.com/)
+[GitHub](https://github.com/)
+
 
 # Design
 The design was entirely focused around the Prism Theatre logo and principles:
@@ -63,7 +96,7 @@ The site was deployed to GitHub. The link can be found [here](https://elamont174
 - As more shows are performed, the 'past/present/future' show pages would need to be updated appropriately. Moving forward, each show will have it's own page created for it so that it can easily be link ed from place to place, depending on what time frame is appropriate. The site would need to be maintained to allow this. The structure of the 'past shows' gallery would be altered tobe a central hub where these pages would link from. 
 
 # Credits
-- [FreeCodeCamp](https://www.freecodecamp.org/news/html-drop-down-menu-how-to-add-a-drop-down-list-with-the-select-element/) was used to create the dropdown menu on the home page.
+- [FreeCodeCamp](https://www.freecodecamp.org/news/html-drop-down-menu-how-to-add-a-drop-down-list-with-the-select-element/) was consulted to create the dropdown menu on the home page.
 - [cloudconvert](https://cloudconvert.com/webp-converter) was used to convert images to webp files.
 - [Font Awesome](https://fontawesome.com/) was used for the social media symbols on the home page.
 - [Balsamiq](https://balsamiq.com/) was used to create wireframes.
@@ -73,3 +106,6 @@ The site was deployed to GitHub. The link can be found [here](https://elamont174
 
 
 # Acknowledgements
+- My mentor Aleksei Konovalov was a great source of support and helped me work out how to make the home page responsive in the manner I wanted.
+- My husband Malcolm Lamont gave me a layman's viewpoint and made sure all the buttons worked.
+- The team at Prism Theatre, especially Kim-louise Sparks, Victoria Bryan and Matt McAuley, let me take our vision and bring it to life - and also gave me permission to use the company name/photos/plans for my project! 

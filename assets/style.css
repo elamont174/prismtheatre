@@ -117,7 +117,7 @@ nav .link-row {
 
 .dropdown:hover .dropdown-options {
     display: block;
-    
+
     background-color: black;
 }
 
@@ -326,7 +326,7 @@ button.navigation {
 
 }
 
-/*Media query: tablets (992px and up) */
+/*Media query: laptops or desktops (992px and up) */
 @media screen and (min-width: 992px) { 
 
     nav .nav-row {
