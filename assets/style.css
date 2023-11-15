@@ -263,6 +263,7 @@ button.navigation {
 
     /*Home page responsiveness*/
 
+
     
 /*about us responsiveness*/
 
@@ -274,4 +275,27 @@ button.navigation {
         font-size: 150%;
 }
 
+}
+
+/*Media query: tablets (992px and up) */
+@media screen and (min-width: 992px) { 
+
+    nav .nav-row {
+    
+            flex-direction: row;
+        }
+    
+        nav .image-row {
+            order: 0;
+        }
+    
+        nav .link-row {
+            height: auto;
+            margin-bottom: auto;
+            
+        }
+
+        div.nav-row.link-row {
+            align-items: space-evenly;
+        }
 }
