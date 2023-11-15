@@ -69,6 +69,8 @@ nav {
     justify-content: center;
 }
 
+
+
 nav .image {
     margin: 0 auto;
 }
@@ -84,6 +86,7 @@ nav .nav-row {
     justify-content: space-between;
     flex-direction: column;
     z-index: 0;
+    
 }
 
 nav .image-row {
@@ -91,8 +94,8 @@ nav .image-row {
 }
 
 nav .link-row {
-    height: 135px;
-    margin-bottom: 65px;
+    height: 235px;
+        margin-bottom: 90px;
 }
 
 #homenav {
@@ -282,7 +285,7 @@ button.navigation {
     
 
     /*Home page responsiveness*/
-        nav .image {
+       /* nav .image {
             margin: 0 auto;
         }
     
@@ -296,6 +299,8 @@ button.navigation {
             align-items: flex-start;
             align-content: left;
             flex-direction: column;
+            margin-top: 50px;
+
         }
     
         nav .image-row {
@@ -303,14 +308,14 @@ button.navigation {
         }
     
         nav .link-row {
-            height: 135px;
-            margin-bottom: 65px;
+            height: 235px;
+            margin-bottom: 90px;
 
             #homenav {
                     display: flex;
                     flex-direction: column;
                     flex-wrap: nowrap;
-                    font-size: 200%;
+                    font-size: 200%;*/
 
 
     
@@ -341,6 +346,7 @@ button.navigation {
         nav .link-row {
             height: auto;
             margin-bottom: auto;
+            width: 900px;
             
         }
 
