@@ -32,9 +32,13 @@ The deployed link can be accessed [here](https://elamont174.github.io/prismtheat
 
 # Design
 
-- The design was entirely focused around the Prism Theatre logo and principles:
+The design was entirely focused around the Prism Theatre logo and principles:
 <img src="assets/images/prism-logo.png">
-
+The Prism Theatre logo has a black background with a rainbow spectrum of colours as the central design - aligning with the name 'Prism'. Prism's values are diversity and inclusivity so all decisions were made with this in mind.
+A deliberately uncluttered design was used to reduce cognitive overload; alt labels were used for all pictures and aria labels were used wherever links opened to new pages to improve the experience of people using screen readers. 
+A black background was chosen to blend in with the background of the Prism logo and the logo was placed at the top of each page to ensure consistency. A white font was used as the most contrasting font against black to make the font easy to read. Sans-serif fonts are considered to be the easiest fonts to read by people who have autism or dyslexia so the sans-serif font 'Oswald' was chosen as the consistent font throughout the website: 
+<img src="assets/images/oswald-font.PNG">
+The only outlier to this was for the "How to Survive a Zombie Apocalypse" ticket link where a red 'Creepster' font was used to add interest and a spooky feel. 
 
 ## Wireframes
 - <img src="assets/images/home-page.png">
