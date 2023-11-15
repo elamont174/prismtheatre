@@ -87,6 +87,7 @@ nav .nav-row {
     flex-direction: column;
     z-index: 0;
     
+    
 }
 
 nav .image-row {
@@ -95,7 +96,8 @@ nav .image-row {
 
 nav .link-row {
     height: 235px;
-        margin-bottom: 90px;
+        margin-bottom: 130px;
+        
 }
 
 #homenav {
@@ -149,7 +151,7 @@ nav .link-row {
     background-color: rgba(10, 12, 16, 0.7);
     left: 10%;
     right: 10%;
-    margin-top: 30%;
+    margin-top: 40%;
     font-size: 130%;
     font-family: 'Oswald', sans-serif;
 }
@@ -325,7 +327,7 @@ button.navigation {
     #zombie-apocalypse {
         left: 30%;
         right: 30%;
-        top: 20%;
+        top: 10%;
         font-size: 150%;
 }
 
