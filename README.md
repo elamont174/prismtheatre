@@ -31,7 +31,6 @@ The deployed link can be accessed [here](https://elamont174.github.io/prismtheat
 # Technologies used
 
 # Design
-
 The design was entirely focused around the Prism Theatre logo and principles:
 - <img src="assets/images/prism-logo.png">
 The Prism Theatre logo has a black background with a rainbow spectrum of colours as the central design - aligning with the name 'Prism'. Prism's values are diversity and inclusivity so all decisions were made with this in mind.
@@ -64,11 +63,11 @@ The site was deployed to GitHub. The link can be found [here](https://elamont174
 - As more shows are performed, the 'past/present/future' show pages would need to be updated appropriately. Moving forward, each show will have it's own page created for it so that it can easily be link ed from place to place, depending on what time frame is appropriate. The site would need to be maintained to allow this. The structure of the 'past shows' gallery would be altered tobe a central hub where these pages would link from. 
 
 # Credits
-
-- <a href="https://www.freecodecamp.org/news/html-drop-down-menu-how-to-add-a-drop-down-list-with-the-select-element/">FreeCodeCamp</a> was used to create the dropdown menu on the home page.
-- <a href="https://cloudconvert.com/webp-converter">cloudconvert</a> was used to convert images to webp files.
-- <a href="https://fontawesome.com/">Font Awesome</a> was used for the social media symbols on the home page.
-- <a href="https://balsamiq.com/">Balsamiq</a> was used to create wireframes.
+- [FreeCodeCamp](https://www.freecodecamp.org/news/html-drop-down-menu-how-to-add-a-drop-down-list-with-the-select-element/) was used to create the dropdown menu on the home page.
+- [cloudconvert](https://cloudconvert.com/webp-converter) was used to convert images to webp files.
+- [Font Awesome](https://fontawesome.com/) was used for the social media symbols on the home page.
+- [Balsamiq](https://balsamiq.com/) was used to create wireframes.
+- [Google fonts](https://fonts.google.com/) was used for the font. 
 - Andy Chick took all of the photos in the past shows gallery and the current show page - they are used with his permission.
 - Kim-louise Sparks created the posters on the current shows and future shows pages - they are used with her permission.
 
