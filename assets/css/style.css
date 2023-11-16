@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* General styles*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+    color: white;
+}
+
+h1,
+h2 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+button .navigation {
+    background-color: darkslategrey;
+}
+
+/* HEADER */
+
+
+/* MAIN */
+
+header {
+    display: flex;
+    justify-content: center;
+    max-width: 100vw;
+
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+
+
+
+/*Home page*/
+
+nav {
+    width: 100%;
+    padding-top: 100px;
+}
+
+#homepage{
+    max-width: 900px; 
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 150%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+nav .image {
+    margin: 0 auto;
+}
+
+nav image img{
+    object-fit: cover;
+    width: 100%;
+}
+
+nav .nav-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    z-index: 0;
+    
+    
+}
+
+nav .image-row {
+    order: -1;
+}
+
+nav .link-row {
+    height: 235px;
+        margin-bottom: 130px;
+        
+}
+
+#homenav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-size: 200%;
+
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-options {
+    display: none;
+    position: absolute;
+    overflow: auto;
+}
+
+.dropdown:hover .dropdown-options {
+    display: block;
+
+    background-color: black;
+}
+
+/* in page navigation*/
+.dropdownpages {
+    display: inline-block;
+    position: absolute;
+}
+
+.dropdownpages-options {
+    display: none;
+    position: relative;
+    overflow: auto;
+    font-size: 100%;
+
+}
+
+.dropdownpages:hover .dropdownpages-options {
+    display: block;
+}
+
+/*About us page*/
+#about-us-content {
+    text-align: center;
+    position: absolute;
+    background-color: rgba(10, 12, 16, 0.7);
+    left: 10%;
+    right: 10%;
+    top: 30%;
+    font-size: 130%;
+    font-family: 'Oswald', sans-serif;
+}
+
+#hero {
+    height: 1200px;
+    width: 100vw;
+    background: url("../assets/images/concertgroup.png") no-repeat center center/cover;
+    position: relative;
+
+}
+
+/*Past shows page*/
+#saintssinners img {
+    width: 100%;
+    line-height: 0;
+}
+
+#pastshows {
+    margin-top: 30px;
+}
+
+/*Current shows page*/
+
+#zombie-apocalypse {
+    padding: 10px;
+    text-align: center;
+    font-size: 150%;
+}
+
+.zombiepics {
+    text-align: center;
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#zombie2 {
+    width: 100%;
+    column-count: 1;
+}
+
+#zombietickets {
+    font-size: 200%;
+    background-color: antiquewhite;
+    color: red;
+    font-family: 'Creepster', sans-serif;
+}
+
+/*Future shows*/
+#tos {
+    text-align: center;
+}
+
+#tosposter {
+    max-width: 100vw;
+}
+
+/*Contact us page*/
+
+#contactus {
+    display: flex;
+    top: 0;
+    margin-left: 8%;
+}
+
+.contactbox {
+    width: 1500px;
+    max-width: 100vw;
+    min-height: 40px;
+    margin: 3.5px;
+}
+
+label.contactlabel {
+    font-size: 150%;
+    display: flex;
+    align-items: center;
+}
+
+button#contactbox-submit {
+    background-color: #444247;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    margin: 10px;
+    font-weight: 300;
+    font-size: 120%;
+}
+
+/* FOOTER */
+
+/*Social media on home page*/
+#socials {
+    font-size: 200%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1%;
+}
+
+/*Navigation buttons*/
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+button.navigation {
+    background-color: #242326;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    margin: 10px;
+    font-weight: 300;
+    font-size: 120%;
+}
+
+/*Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #saintssinners {
+        column-count: 2;
+    }
+
+    #about-us-content {
+        left: 15%;
+        right: 15%;
+    }
+}
+
+/*Media query: tablets (768px and up) */
+@media screen and (min-width: 768px) {
+    #saintssinners {
+        column-count: 3;
+        column-gap: 0;
+    }
+
+    
+/*about us responsiveness*/
+
+    #about-us-content,
+    #zombie-apocalypse {
+        left: 30%;
+        right: 30%;
+        top: 30%;
+        font-size: 150%;
+}
+
+}
+
+/*Media query: laptops or desktops (992px and up) */
+@media screen and (min-width: 992px) { 
+
+    nav .nav-row {
+    
+            flex-direction: row;
+        }
+    
+        nav .image-row {
+            order: 0;
+        }
+    
+        nav .link-row {
+            height: auto;
+            margin-bottom: auto;
+            width: 900px;
+            
+        }
+
+}
