@@ -70,7 +70,7 @@ Submit button|Click submit when your form is complete|The form will not submit u
 
 ### Contact us page
 - The warnings were for the Font Awesome icons script.
-- <img src="">
+- <img src="assets/images/contacvali.png">
   
 ## CSS validator
 
