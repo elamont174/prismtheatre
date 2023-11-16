@@ -114,6 +114,7 @@ The site was deployed to GitHub. The link can be found [here](https://elamont174
 - [Font Awesome](https://fontawesome.com/) was used for the social media symbols on the home page.
 - [Balsamiq](https://balsamiq.com/) was used to create wireframes.
 - [Google fonts](https://fonts.google.com/) was used for the font. 
+- [MarkdownConvert](https://markdown-convert.com/en/tool/table) was used to create the manual testing markdown table 
 - Andy Chick took all of the photos in the past shows gallery and the current show page - they are used with his permission.
 - Kim-louise Sparks created the posters on the current shows and future shows pages - they are used with her permission.
 
