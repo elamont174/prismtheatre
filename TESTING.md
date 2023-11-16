@@ -50,28 +50,30 @@ Submit button|Click submit when your form is complete|The form will not submit u
 
 ### Homepage/index.html
 - The warnings were for the Font Awesome icons script.
-- <img src="assets/images/indexvali.png">
+- ![Homepage/index.html validator](assets/images/indexvali.png)
 
 ### About us page
 - The warnings were for the Font Awesome icons script.
-- <img src="assets/images/aboutusvali.png">
+- ![About us page validator](assets/images/aboutusvali.png)
 
 ### Past shows gallery
 - The warnings were for the Font Awesome icons script.
-- <img src="assets/images/pastvali.PNG">
+- ![Past shows gallery validator](assets/images/pastvali.png)
 
 ### Current show page
 - The warnings were for the Font Awesome icons script.
-- <img src="assets/images/presentvali.png">
+- ![Current show page validator](assets/images/presentvali.png)
 
 ### Future shows page
 - The warnings were for the Font Awesome icons script.
-- <img src="assets/images/futurevali.png">
+- ![Future shows page validator](assets/images/futurevali.png)
 
 ### Contact us page
 - The warnings were for the Font Awesome icons script.
-- <img src="assets/images/contacvali.png">
+- ![Contact us page validator](assets/images/contacvali.png)
   
 ## CSS validator
 
-- <img src="assets/images/cssvali.png">
+- ![CSS validator](assets/images/cssvali.png)
+
+

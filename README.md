@@ -18,17 +18,17 @@ The target audience for the website will be people, most likely adults, who wish
 
 ## Home Page 
 - The home page has the company logo at the heart. The home page design is responsive: on mobile, the different pages are listed underneath in a column, whereas for larger screens the pages are linked around the edges.
-- <img src="assets/images/homesnap1.png">
+- ![Mobile homepage screenshot](assets/images/homesnap1.png)
 - The company social media pages are linked in the footer of the homepage - these can be accessed by clicking the Facebook and Instagram logos, which open as new tabs. 
 - If you hover over the 'Shows' link, you can choose between past, present or future show pages. 
-- <img src="assets/images/homesnap2.png">
+- ![Desktop homepage screenshot with shows dropdown](assets/images/homesnap2.png)
 
 ## About us page
 The About Us page contains:
 - a hero image of the company at a past concert.
 - the company manifesto.
 - quick navigation buttons at the button of the page and a navigation area at the top left of the page.
-- <img src="assets/images/snap6.PNG">
+- ![About us page screenshot](assets/images/snap6.png)
 
 The hero image is a background image which doesn't move but of which more will be displayed depending on which size of screen is used. The text is across the hero image and is responsive to screen size.
 
@@ -37,25 +37,25 @@ The hero image is a background image which doesn't move but of which more will b
 The past shows page contains:
 - a photo gallery of a past concert the group has performed.
 - quick navigation buttons at the button of the page and a navigation area at the top left of the page.
-- <img src="assets/images/snap3.PNG">
+- ![Past shows gallery screenshot](assets/images/snap3.png)
 
 The gallery is responsive so that on mobile, there is one column of photos; on larger/landscape mobiles there are two columns of photos; on tablets/desktops there are three columns of photos. It it presented in a masonic layout to provide visual interest to the user. All photos have alt text so that, if an image link breaks or someone is using a screen reader, there is alternative text to read if necessary. 
 
-## Current show page
+## Present show page
 The current show page contains:
 - an image of the poster the group are currently rehearsing.
 - information about the show.
 - a link to the ticket page for users to buy tickets.
 - an image of the cast in costume for the show.
 - quick navigation buttons at the button of the page and a navigation area at the top left of the page.
-- <img src="assets/images/snap5.PNG">
+- ![Present show page screenshot](assets/images/snap5.png)
 
 ## Future shows page
 The future shows page contains:
 - an image of a poster for the show which the group will be performing in the future.
 - a link to the ticket page (accessed by clicking on the image of the poster).
 - quick navigation buttons at the button of the page and a navigation area at the top left of the page.
-- <img src="assets/images/snap7.PNG">
+- ![Future shows screenshot](assets/images/snap7.png)
 
 ## Contact us form page
   A form was created using the form function. 
@@ -64,7 +64,7 @@ The future shows page contains:
   - an email input where the user's email is required.
   - a text-area input where the user can put their query as a required option.
   - the submit button which currently pushed the query to the Code Institute's form-dump page and shows the user what data was sent. 
-- <img src="assets/images/snap4.png">
+- ![Contact us form screenshot](assets/images/snap4.png)
 
 # Technologies used
 - [HTML](https://codeinstitute.net/blog/what-is-html-and-why-should-i-learn-it/) 
@@ -75,28 +75,28 @@ The future shows page contains:
 
 # Design
 The design was entirely focused around the Prism Theatre logo and principles:
-- <img src="assets/images/prism-logo.png">
+- ![Prism logo: three hand holding each other in a triangle and large word PRISM in capital letters. Colours: black background with a rainbow colour across the picture/word](assets/images/prism-logo.png)
 The Prism Theatre logo has a black background with a rainbow spectrum of colours as the central design - aligning with the name 'Prism'. Prism's values are diversity and inclusivity so all decisions were made with this in mind.
 A deliberately uncluttered design was used to reduce cognitive overload; alt labels were used for all pictures and aria labels were used wherever links opened to new pages to improve the experience of people using screen readers. 
 A black background was chosen to blend in with the background of the Prism logo and the logo was placed at the top of each page to ensure consistency. A white font was used as the most contrasting font against black to make the font easy to read. Sans-serif fonts are considered to be the easiest fonts to read by people who have autism or dyslexia so the sans-serif font 'Oswald' was chosen as the consistent font throughout the website: 
-- <img src="assets/images/oswald-font.PNG">
+- ![Example of Oswald font](assets/images/oswald-font.png)
 The only outlier to this was for the "How to Survive a Zombie Apocalypse" ticket link where a red 'Creepster' font was used to add interest and a spooky feel. 
 
 ## Wireframes
 - Home page small screen
-- <img src="assets/images/home-page.png">
+- ![Home page small screen wireframe](assets/images/home-page.png)
 - Home page large screen
-- <img src="assets/images/home-page2.png">
+- ![Home page large screen wireframe](assets/images/home-page2.png)
 - About us page
-- <img src="assets/images/about-us-page.png">
+- ![About us page wireframe](assets/images/about-us-page.png)
 - Past shows gallery
-- <img src="assets/images/past-shows-page.png">
+- ![Past shows gallery wireframe](assets/images/past-shows-page.png)
 - Present show page
-- <img src="assets/images/current-show-page.png">
-- Future show/s page
-- <img src="assets/images/future-show-page.png">
+- ![Present show page wireframe](assets/images/current-show-page.png)
+- Future show page
+- ![Future show page wireframe](assets/images/future-show-page.png)
 - Contact us page
-- <img src="assets/images/contact-us-page.png">
+- ![Contact us page wireframe](assets/images/contact-us-page.png)
 
 
 # Testing
