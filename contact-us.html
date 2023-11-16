@@ -44,13 +44,13 @@
         <header><img src="assets/images/prism-square.png" alt="Prism Theatre logo" class="prismlogo"></header>
     <h1>Contact us</h1><br>
     <div id="contactus"><form action="https://formdump.codeinstitute.net" method="POST" target="_blank">
-    <label for="text" class="contactlabel">Your name</label>
-    <input type="text" name="name" class="contactbox" required>
+    <label for="name" class="contactlabel">Your name</label>
+    <input type="text" name="name" class="contactbox" id="name" required>
     <br>
     <label for="email" class="contactlabel">Your email</label>
-    <input type="email"  name="emailaddress" class="contactbox" required>
+    <input type="email"  name="emailaddress" class="contactbox" id="email" required>
     <br>
-    <label for="textarea" class="contactlabel">Your query</label>
+    <label for="contactbox-query" class="contactlabel">Your query</label>
     <textarea rows="10" cols="100" name="query" class="contactbox" id="contactbox-query" required></textarea>
     <br>
     <button type="submit" id="contactbox-submit">Submit</button> 
