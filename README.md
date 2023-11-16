@@ -2,8 +2,8 @@
 
 # Prism Theatre
 The website is for the amateur dramatic company Prism Theatre. It allows people to buy tickets for upcoming performances, learn about the company and their past, present, future shows. It gives the company a central hub where they can provide information, sell tickets and promote their shows.
-The GitHub page can be accessed [here](https://github.com/elamont174/prismtheatre/).
-The deployed link can be accessed [here](https://elamont174.github.io/prismtheatre/).
+- The GitHub page can be accessed [here](https://github.com/elamont174/prismtheatre/).
+- The deployed link can be accessed [here](https://elamont174.github.io/prismtheatre/).
 
 # User Stories
 The target audience for the website will be people, most likely adults, who wish to attend the theatre in the Nottingham area of England. The most likely user will be considering buying tickets for a show or wishing to become involved in local amateur dramatics in the area. User stories are therefore likely to include:
@@ -14,7 +14,6 @@ The target audience for the website will be people, most likely adults, who wish
 - As a ticket purchaser, I want to be able to contact the company by either email or social media in case I have questions about a performance.
 - As an actor, I want to know if I can contact the company to get involved.
   
-
 # Features
 
 ## Home Page 
@@ -29,6 +28,7 @@ The About Us page contains:
 - a hero image of the company at a past concert.
 - the company manifesto.
 - quick navigation buttons at the button of the page and a navigation area at the top left of the page.
+- <img src="assets/images/snap6.PNG">
 
 The hero image is a background image which doesn't move but of which more will be displayed depending on which size of screen is used. The text is across the hero image and is responsive to screen size.
 
@@ -55,14 +55,15 @@ The future shows page contains:
 - an image of a poster for the show which the group will be performing in the future.
 - a link to the ticket page (accessed by clicking on the image of the poster).
 - quick navigation buttons at the button of the page and a navigation area at the top left of the page.
+- <img src="assets/images/snap7.PNG">
 
 ## Contact us form page
   A form was created using the form function. 
   This included:
-  - A text input where the user's name is required.
-  - An email input where the user's email is required.
-  - A text-area input where the user can put their query as a required option.
-  - The submit button which currently pushed the query to the Code Institute's form-dump page and shows the user what data was sent. 
+  - a text input where the user's name is required.
+  - an email input where the user's email is required.
+  - a text-area input where the user can put their query as a required option.
+  - the submit button which currently pushed the query to the Code Institute's form-dump page and shows the user what data was sent. 
 - <img src="assets/images/snap4.png">
 
 # Technologies used
@@ -82,25 +83,32 @@ A black background was chosen to blend in with the background of the Prism logo 
 The only outlier to this was for the "How to Survive a Zombie Apocalypse" ticket link where a red 'Creepster' font was used to add interest and a spooky feel. 
 
 ## Wireframes
+- Home page small screen
 - <img src="assets/images/home-page.png">
+- Home page large screen
 - <img src="assets/images/home-page2.png">
+- About us page
 - <img src="assets/images/about-us-page.png">
+- Past shows gallery
 - <img src="assets/images/past-shows-page.png">
+- Present show page
 - <img src="assets/images/current-show-page.png">
+- Future show/s page
 - <img src="assets/images/future-show-page.png">
+- Contact us page
 - <img src="assets/images/contact-us-page.png">
 
 
 # Testing
-Please see [TESTING.md file](TESTING.md)
+Please see [TESTING.md file](TESTING.md).
 
 ## Bugs
-1. On the homepage, used flexbox to group the 'shows' and 'contact us' links together and then move them to underneath the logo when on larger screens. Since 'Shows' has a drop-down, this meant that the 'Contact us' box would move when the dropdown was open. I have set the flexbox to 'center' which meant that when the dropbox was open, 'contact us' was moving to the new center. I fixed this by changing the flexbox to 'flex-start' instead. 
+1. On the homepage, I used flexbox to group the 'shows' and 'contact us' links together and then move them to underneath the logo when on larger screens. Since 'Shows' has a drop-down, this meant that the 'Contact us' box would move when the dropdown was open. I had set the flexbox to 'center' which meant that when the dropbox was open, 'contact us' was moving to the new center. I fixed this by changing the flexbox to 'flex-start' instead. 
 2. When I created the navigation tabs on the individual pages, the dropdown was causing the content of the entire page to move down. I corrected this by setting the positioning of the page to absolute and the dropdown to relative so that the dropdown was then positioned over the page and not causing the page to move down. 
-3. I initially nested anchor tags inside of buttons as I didn't realise that HTML wouldn't allow this. I fixed this by changing all buttons into forms and with a 'get' method. 
+3. I initially nested anchor tags inside of buttons as I didn't realise that HTML5 wouldn't allow this. I fixed this by changing all buttons into forms with a 'get' method. 
 
 # Deployment
-The site was deployed to GitHub. The link can be found [here](https://elamont174.github.io/prismtheatre/)
+The site was deployed to GitHub. The link can be found [here](https://elamont174.github.io/prismtheatre/).
 
 
 # Future improvements
@@ -111,10 +119,10 @@ The site was deployed to GitHub. The link can be found [here](https://elamont174
 # Credits
 - [FreeCodeCamp](https://www.freecodecamp.org/news/html-drop-down-menu-how-to-add-a-drop-down-list-with-the-select-element/) was consulted to create the dropdown menu on the home page.
 - [cloudconvert](https://cloudconvert.com/webp-converter) was used to convert images to webp files.
-- [Font Awesome](https://fontawesome.com/) was used for the social media symbols on the home page.
+- [Font Awesome](https://fontawesome.com/) was used for the social media symbols on the home page and the hamburger symbol on the navbar.
 - [Balsamiq](https://balsamiq.com/) was used to create wireframes.
 - [Google fonts](https://fonts.google.com/) was used for the font. 
-- [MarkdownConvert](https://markdown-convert.com/en/tool/table) was used to create the manual testing markdown table 
+- [MarkdownConvert](https://markdown-convert.com/en/tool/table) was used to create the manual testing markdown table in README. 
 - Andy Chick took all of the photos in the past shows gallery and the current show page - they are used with his permission.
 - Kim-louise Sparks created the posters on the current shows and future shows pages - they are used with her permission.
 
