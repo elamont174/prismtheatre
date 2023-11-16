@@ -63,7 +63,7 @@ The future shows page contains:
   - a text input where the user's name is required.
   - an email input where the user's email is required.
   - a text-area input where the user can put their query as a required option.
-  - the submit button which currently pushed the query to the Code Institute's form-dump page and shows the user what data was sent. 
+  - the submit button which currently pushes the query to a response page which opens in a new tab. 
 - ![Contact us form screenshot](assets/images/snap4.png)
 
 # Technologies used

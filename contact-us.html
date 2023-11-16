@@ -26,7 +26,11 @@
 
 <body>
     <!--Header-->
-    <nav class="dropdownpages" id="pagenav"><i class="fa-solid fa-bars fa-xl"></i>
+    <nav class="dropdownpages" id="pagenav">
+        <label class="hamburger-menu" for="nav-dropdown">
+        <i class="fa-solid fa-bars fa-xl"></i>
+        </label>
+        <input type="checkbox" id="nav-dropdown">
         <div class="dropdownpages-options">
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -54,7 +58,7 @@
     <label for="contactbox-query" class="contactlabel">Your query</label>
     <textarea rows="10" name="query" class="contactbox" id="contactbox-query" required></textarea>
     <br>
-    <button type="submit" id="contactbox-submit">Submit</button> 
+    <button type="submit" id="contactbox-submit" aria-label="Clicking submit will open a response form in a new tab">Submit</button> 
         </form></div>
     
 </main>
