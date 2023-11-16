@@ -13,6 +13,8 @@
 
 ### Past shows gallery
 
+- The warnings were for the Font Awesome icons script.
+
 ### Current show page
 
 ### Future shows page
