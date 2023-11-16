@@ -15,6 +15,11 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
+img .prismlogo {
+    max-width: 100%;
+    object-fit: cover;
+}
+
 a {
     text-decoration: none !important;
     color: white;
@@ -35,6 +40,18 @@ button .navigation {
 
 /* HEADER */
 
+.hamburger-menu {
+    margin-left: 10px;
+}
+
+#nav-dropdown {
+    display: none;
+}
+
+#nav-dropdown:checked ~ .dropdownpages-options {
+    display: block;
+    z-index: 999;
+}
 
 /* MAIN */
 
@@ -137,12 +154,16 @@ nav .link-row {
     position: relative;
     overflow: auto;
     font-size: 100%;
+    background-color: rgba(10, 12, 16, 0.7);
+    width: fit-content;
+    padding: 10px;
+    backdrop-filter: blur(5px);
 
 }
 
-.dropdownpages:hover .dropdownpages-options {
+/*.dropdownpages:hover .dropdownpages-options {
     display: block;
-}
+}*/
 
 /*About us page*/
 #about-us-content {
@@ -159,7 +180,7 @@ nav .link-row {
 #hero {
     height: 1200px;
     width: 100vw;
-    background: url("../assets/images/concertgroup.png") no-repeat center center/cover;
+    background: url("../images/concertgroup.png") no-repeat center center/cover;
     position: relative;
 
 }
