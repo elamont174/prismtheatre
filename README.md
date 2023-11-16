@@ -66,10 +66,10 @@ The future shows page contains:
 - <img src="assets/images/snap4.png">
 
 # Technologies used
-[HTML](https://codeinstitute.net/blog/what-is-html-and-why-should-i-learn-it/) 
-[CSS](https://codeinstitute.net/blog/what-is-css-and-why-should-i-learn-it/)
-[Balsamiq](https://balsamiq.com/)
-[GitHub](https://github.com/)
+- [HTML](https://codeinstitute.net/blog/what-is-html-and-why-should-i-learn-it/) 
+- [CSS](https://codeinstitute.net/blog/what-is-css-and-why-should-i-learn-it/)
+- [Balsamiq](https://balsamiq.com/)
+- [GitHub](https://github.com/)
 
 
 # Design
