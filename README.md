@@ -92,7 +92,7 @@ The only outlier to this was for the "How to Survive a Zombie Apocalypse" ticket
 - Past shows gallery
 - ![Past shows gallery wireframe](assets/images/past-shows-page.png)
 - Present show page
-- ![Present show page wireframe](assets/images/current-show-page.png)
+- ![Present show page wireframe](assets/images/current-shows-page.png)
 - Future show page
 - ![Future show page wireframe](assets/images/future-show-page.png)
 - Contact us page
@@ -114,7 +114,7 @@ The site was deployed to GitHub. The link can be found [here](https://elamont174
 # Future improvements
 - The website has been made with the intention of being cloned for use by Prism Theatre. 
 - The contact form would be made fully functional so that the user's query would be directed to Prism Theatre's email address.
-- As more shows are performed, the 'past/present/future' show pages would need to be updated appropriately. Moving forward, each show will have it's own page created for it so that it can easily be link ed from place to place, depending on what time frame is appropriate. The site would need to be maintained to allow this. The structure of the 'past shows' gallery would be altered tobe a central hub where these pages would link from. 
+- As more shows are performed, the 'past/present/future' show pages would need to be updated appropriately. Moving forward, each show will have it's own page created for it so that it can easily be linked from place to place, depending on what time frame is appropriate. The site would need to be maintained to allow this. The structure of the 'past shows' gallery would be altered to be a central hub where these pages would link from. 
 
 # Credits
 - [FreeCodeCamp](https://www.freecodecamp.org/news/html-drop-down-menu-how-to-add-a-drop-down-list-with-the-select-element/) was consulted to create the dropdown menu on the home page.
