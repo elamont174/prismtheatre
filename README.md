@@ -111,7 +111,7 @@ Please see [TESTING.md file](TESTING.md).
 The site was deployed to GitHub pages. This is done as follows:
 
 - Navigate to the GitHub repository
-- Click on the 'Settings' tab on the navigation bar.
+- Click on the 'Settings' tab on the top navigation bar.
 - Click on 'Pages' on the left navigation menu
 - Ensure the 'Source' is set to 'Deploy from a Branch'
 - Ensure the 'Branch' is set to 'Main'

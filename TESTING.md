@@ -49,31 +49,28 @@ Submit button|Click submit when your form is complete|The form will not submit u
 ## HTML validator
 
 ### Homepage/index.html
-- The warnings were for the Font Awesome icons script.
-- ![Homepage/index.html validator](assets/images/indexvali.png)
+Passed validator: Document checking completed. No errors or warnings to show.
 
 ### About us page
-- The warnings were for the Font Awesome icons script.
-- ![About us page validator](assets/images/aboutusvali.png)
+Passed validator: Document checking completed. No errors or warnings to show.
 
 ### Past shows gallery
-- The warnings were for the Font Awesome icons script.
-- ![Past shows gallery validator](assets/images/pastvali.png)
+Passed validator: Document checking completed. No errors or warnings to show.
 
 ### Current show page
-- The warnings were for the Font Awesome icons script.
-- ![Current show page validator](assets/images/presentvali.png)
+Passed validator: Document checking completed. No errors or warnings to show.
 
 ### Future shows page
-- The warnings were for the Font Awesome icons script.
-- ![Future shows page validator](assets/images/futurevali.png)
+Passed validator: Document checking completed. No errors or warnings to show.
 
 ### Contact us page
-- The warnings were for the Font Awesome icons script.
-- ![Contact us page validator](assets/images/contacvali.png)
+
+
+### Contact us response page
+Passed validator: Document checking completed. No errors or warnings to show.
+
   
 ## CSS validator
-
 - ![CSS validator](assets/images/cssvali.png)
 
 
