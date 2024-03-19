@@ -108,7 +108,17 @@ Please see [TESTING.md file](TESTING.md).
 3. I initially nested anchor tags inside of buttons as I didn't realise that HTML5 wouldn't allow this. I fixed this by changing all buttons into forms with a 'get' method. 
 
 # Deployment
-The site was deployed to GitHub. The link can be found [here](https://elamont174.github.io/prismtheatre/).
+The site was deployed to GitHub pages. This is done as follows:
+
+- Navigate to the GitHub repository
+- Click on the 'Settings' tab on the navigation bar.
+- Click on 'Pages' on the left navigation menu
+- Ensure the 'Source' is set to 'Deploy from a Branch'
+- Ensure the 'Branch' is set to 'Main'
+- Click 'Save'
+- The page may take a few moments to load but can then be found under the 'Deployments' tab in the repository.
+
+-The link can be found [here](https://elamont174.github.io/prismtheatre/).
 
 
 # Future improvements
