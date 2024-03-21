@@ -47,27 +47,29 @@ Submit button|Click submit when your form is complete|The form will not submit u
 
 
 ## HTML validator
+- I used the W3C validator for checking the HTML.
+- I used the W3C CSS validator for checking the CSS.
 
 ### Homepage/index.html
-Passed validator: Document checking completed. No errors or warnings to show.
+
 
 ### About us page
-Passed validator: Document checking completed. No errors or warnings to show.
+
 
 ### Past shows gallery
-Passed validator: Document checking completed. No errors or warnings to show.
+
 
 ### Current show page
-Passed validator: Document checking completed. No errors or warnings to show.
+
 
 ### Future shows page
-Passed validator: Document checking completed. No errors or warnings to show.
+
 
 ### Contact us page
 
 
 ### Contact us response page
-Passed validator: Document checking completed. No errors or warnings to show.
+
 
   
 ## CSS validator

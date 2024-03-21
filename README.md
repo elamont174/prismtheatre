@@ -67,10 +67,11 @@ The future shows page contains:
 - ![Contact us form screenshot](assets/images/snap4.png)
 
 # Technologies used
-- [HTML](https://codeinstitute.net/blog/what-is-html-and-why-should-i-learn-it/) 
-- [CSS](https://codeinstitute.net/blog/what-is-css-and-why-should-i-learn-it/)
-- [Balsamiq](https://balsamiq.com/)
-- [GitHub](https://github.com/)
+- [HTML](https://codeinstitute.net/blog/what-is-html-and-why-should-i-learn-it/) to build basic structure and webpages.
+- [CSS](https://codeinstitute.net/blog/what-is-css-and-why-should-i-learn-it/) for styling.
+- [Balsamiq](https://balsamiq.com/) to create wireframes.
+- [GitHub](https://github.com/) to host the repository.
+- [CodeAnywhere](https://codeanywhere.com/) as a workspace.
 
 
 # Design
