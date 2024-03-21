@@ -51,27 +51,26 @@ Submit button|Click submit when your form is complete|The form will not submit u
 - I used the W3C CSS validator for checking the CSS.
 
 ### Homepage/index.html
-
+- ![Screenshot of Index page validation](assets/images/html-vali.png)
 
 ### About us page
-
+- ![Screenshot of About Us page validation](assets/images/html-vali.png)
 
 ### Past shows gallery
-
+- ![Screenshot of Past Shows page validation](assets/images/html-vali.png)
 
 ### Current show page
-
+- ![Screenshot of Current Show page validation](assets/images/html-vali.png)
 
 ### Future shows page
-
+- ![Screenshot of Future Shows page validation](assets/images/html-vali.png)
 
 ### Contact us page
-
+- ![Screenshot of Contact Us page validation](assets/images/html-vali.png)
 
 ### Contact us response page
+- ![Screenshot of Response page validation](assets/images/html-vali.png)
 
-
-  
 ## CSS validator
 - ![CSS validator](assets/images/cssvali.png)
 
